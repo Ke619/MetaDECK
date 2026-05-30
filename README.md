@@ -53,11 +53,9 @@ To automatically patch your metadata every time you boot into Desktop Mode:
 
 1. Open **System Settings > Autostart**
 2. Click **Add New > Login Script**
-3. Set the command to:
-   ```
-   bash /home/deck/Applications/metadeck.sh --splash-only
-   ```
-4. Click OK
+3. Navigate to **MetaDECK** and select it
+4. Add this argument: `--splash-only`
+5. Click OK
 
 This will show the MetaDECK splash screen for 2 seconds on every login, silently patch your metadata, then close automatically.
 
