@@ -44,18 +44,18 @@ class Config:
         # Looks for "0213123"		"1395050123"
         self.APP_REGEX = re.compile('"([0-9]+)"\t\t"[0-9]+"')
 
-        self.BG = "#23272c"
-        self.FG = "#b8b6b4"
+        self.BG = "#3c7723"
+        self.FG = "#68c63e"
 
-        self.ENTRY_FG = "#e9e9e9"
-        self.ENTRY_BG = "#1d1b19"
+        self.ENTRY_FG = "#dce8f5"
+        self.ENTRY_BG = "#2a5518"
         self.ENTRY_RELIEF = "flat"
         self.ENTRY_PADDING = 5
 
-        self.BTTN_ACTIVE_BG = "#3ea7f3"
-        self.BTTN_ACTIVE_FG = "#c3e1f8"
-        self.BTTN_BG = "#2f7dde"
-        self.BTTN_FG = "#c3e1f8"
+        self.BTTN_ACTIVE_BG = "#b8f070"
+        self.BTTN_ACTIVE_FG = "#1a3a0a"
+        self.BTTN_BG = "#a2e258"
+        self.BTTN_FG = "#1a3a0a"
         self.BTTN_RELIEF = "flat"
         self.BTTN_FONT_SIZE = 9
         self.BTTN_FONT = "Verdana"
@@ -69,7 +69,11 @@ class Config:
 
         self.HOME_DIR = None
         self.CONFIG_PATH = "config"
-        self.IMG_PATH = f"{os.path.dirname(__file__)}/gui/img"
+        import sys
+        if hasattr(sys, '_MEIPASS'):
+            self.IMG_PATH = f"{sys._MEIPASS}/gui/img"
+        else:
+            self.IMG_PATH = f"{os.path.dirname(__file__)}/gui/img"
 
         if self.CURRENT_OS != "Windows":
             self.HOME_DIR = os.getenv("HOME")
@@ -98,9 +102,16 @@ class Config:
             type=int,
             help="export the contents of all the given appIDs into the JSON",
         )
+        parser.add_argument(
+            "-p",
+            "--splash-only",
+            action="store_true",
+            help="show splash screen, patch silently, then close",
+        )
         args = parser.parse_args()
         self.silent = args.silent
         self.export = args.export
+        self.splash_only = args.splash_only
 
     def ensure_config_file_exists(self):
         if not os.path.isfile(f"{self.CONFIG_PATH}/config.cfg"):
