@@ -31,6 +31,10 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
   <img src="project_demo/window1_demo.png" width="800">
 </p>
 
+<p align="center">
+  <img src="project_demo/window2_demo.png" width="800">
+</p>
+
 ---
 
 ## Installation
