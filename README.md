@@ -34,7 +34,7 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
 ## Installation
 
 1. Download `metadeck.sh` from the [Releases](../../releases) page
-2. Move it to a permanent location:
+2. Move it to a permanent location (Home/Applications is the default directory) :
    ```bash
    mkdir -p ~/Applications
    mv ~/Downloads/metadeck.sh ~/Applications/metadeck.sh
