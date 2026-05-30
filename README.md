@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="project_demo/metaicon_demo.png">
+  <img src="project_demo/metaicon_demo.png" width="400">
 </p>
 ![MetaDECK Logo](project_demo/metaicon_demo.png)
 
