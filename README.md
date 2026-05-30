@@ -84,9 +84,9 @@ Your modifications are saved to:
 
 ## Credits
 
-- Original App by [tralph3](https://github.com/tralph3/Steam-Metadata-Editor)
-- MetaDECK logo is based on the Pixelated Artwork by reddit user [ExxiIon](https://www.reddit.com/user/ExxiIon/)
-- Shout out to reddit user [WolfBoy980](https://www.reddit.com/user/WolfBoy980/) for his contributions 
+- Original project by [tralph3](https://github.com/tralph3/Steam-Metadata-Editor)
+- MetaDECK logo is based on the pixelated artwork by Reddit user [ExxiIon](https://www.reddit.com/user/ExxiIon/)
+- Shout out to Reddit user [WolfBoy980](https://www.reddit.com/user/WolfBoy980/) for his contributions 
 
 ---
 
