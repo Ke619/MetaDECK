@@ -86,9 +86,9 @@ Your modifications are saved to:
 
 - Original App by [tralph3](https://github.com/tralph3/Steam-Metadata-Editor)
 - MetaDECK logo is based on the Pixelated Artwork by reddit user [ExxiIon](https://www.reddit.com/user/ExxiIon/)
+- Shout out to reddit user [WolfBoy980](https://www.reddit.com/user/WolfBoy980/) for his contributions 
 
 ---
 
 ## License
-
-GPL — same as the original project.
+MetaDECK is open source and distributed under the **GPL License**, inheriting the same license as the original [Steam Metadata Editor](https://github.com/tralph3/Steam-Metadata-Editor) project by tralph3. You are free to use, modify, and distribute this software under the same terms.
