@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="project_demo/metaicon_demo.png" width="800">
+  <img src="project_demo/metaicon_demo.png" width="250">
 </p>
 
 <br>
@@ -28,7 +28,7 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
 - Fully standalone — no Distrobox, no Flatpak, no dependencies needed
 
 <p align="center">
-  <img src="project_demo/window1_demo.png" width="400">
+  <img src="project_demo/window1_demo.png" width="800">
 </p>
 
 ---
