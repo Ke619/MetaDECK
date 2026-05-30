@@ -1,4 +1,8 @@
-# METADECK
+<div align="center">
+
+# MetaDECK
+
+</div># METADECK
 
 ![MetaDECK Logo](project_demo/metaicon_demo.png)
 
