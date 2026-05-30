@@ -9,9 +9,9 @@
 </p>
 
 
-A fork of [Steam Metadata Editor](https://github.com/tralph3/Steam-Metadata-Editor) by tralph3, redesigned and compiled specifically for **SteamOS on Steam Deck**.
+<h1 align="center">A fork of [Steam Metadata Editor](https://github.com/tralph3/Steam-Metadata-Editor) by tralph3, redesigned and compiled specifically for **SteamOS on Steam Deck**.
 
-MetaDECK lets you rename your Steam games and add custom launch menu options — just like SteamEdit used to do on Windows.
+MetaDECK lets you rename your Steam games and add custom launch menu options — just like SteamEdit used to do on Windows.</h1>
 
 ---
 
