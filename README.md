@@ -66,7 +66,7 @@ This will show the MetaDECK splash screen for 2 seconds on every login, silently
 ## Usage
 
 - **Open GUI:** `bash metadeck.sh`
-- **Silent patch only (autostart):** `bash metadeck.sh --splash-only`
+- **Silent patch only (autostart):** `bash metadeck.sh --splash-only` (For Troubleshooting only)
 
 ---
 
