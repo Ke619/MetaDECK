@@ -41,6 +41,7 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
    chmod +x ~/Applications/metadeck.sh
    ```
 3. Run it:
+   With this Konsole command:
    ```bash
    bash ~/Applications/metadeck.sh
    ```
