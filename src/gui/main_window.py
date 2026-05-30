@@ -85,9 +85,18 @@ class MainWindow:
     def create_main_window(self):
         # Define main window
         self.window = tk.Tk()
-        self.window.title("Steam Metadata Editor")
+        self.window.title("MetaDECK")
         self.window.resizable(width=False, height=False)
         self.window.config(padx=10, pady=10, bg=config.BG)
+
+        # Set window icon
+        try:
+            from PIL import Image, ImageTk
+            iconImg = Image.open(f"{config.IMG_PATH}/ICON.png")
+            self.iconImage = ImageTk.PhotoImage(iconImg)
+            self.window.iconphoto(True, self.iconImage)
+        except Exception as e:
+            print(f"Icon load failed: {e}")
 
         # Hide to show loading window
         self.window.withdraw()
@@ -95,6 +104,20 @@ class MainWindow:
 
         # Load appinfo
         self.appinfo = Appinfo(self.vdf_path)
+
+        # Logo header
+        try:
+            from PIL import Image, ImageTk
+            logoImg = Image.open(f"{config.IMG_PATH}/Metadeck_LOGO.png")
+            logoImg = logoImg.resize((305, 122), Image.LANCZOS)
+            self.logoImage = ImageTk.PhotoImage(logoImg)
+            self.logoLabel = tk.Label(self.window, image=self.logoImage, bg=config.BG, bd=0, highlightthickness=0)
+            self.logoLabel.image = self.logoImage  # prevent garbage collection
+            self.logoLabel.pack(side="top", pady=(0, 10))
+        except Exception as e:
+            print(f"Logo load failed: {e}")
+            self.logoLabel = tk.Label(self.window, text="MetaDECK", bg=config.BG, fg=config.FG, font=("Verdana", 18, "bold"))
+            self.logoLabel.pack(side="top", pady=(0, 10))
 
         # Button images
         self.upArrowImage = tk.PhotoImage(file=f"{config.IMG_PATH}/UpArrow.png")
@@ -135,10 +158,11 @@ class MainWindow:
         self.searchBarVar = tk.StringVar()
 
         # Layout setup
+        self.mainContainerFrame = Frame(self.window)
         self.leftFrame = LabelFrame(
-            self.window, padx=10, pady=10, text="Search:"
+            self.mainContainerFrame, padx=10, pady=10, text="Search:"
         )
-        self.rightContainerFrame = Frame(self.window, padx=10, pady=10)
+        self.rightContainerFrame = Frame(self.mainContainerFrame, padx=10, pady=10)
         # Label specific
         self.rightIdFrame = Frame(self.rightContainerFrame)
         self.rightNameFrame = Frame(self.rightContainerFrame)
@@ -305,6 +329,7 @@ class MainWindow:
         # Frames
         self.leftFrame.pack(side="left", fill="both")
         self.rightContainerFrame.pack(side="right", fill="both")
+        self.mainContainerFrame.pack(side="top", fill="both")
 
         self.rightIdFrame.pack(
             side="top", fill="both", pady=(0, config.ENTRY_PADDING)
@@ -1171,6 +1196,8 @@ class MainWindow:
         self.launchMenuWindow.title(
             f"Launch Menu Editor for {appName} ({appID})"
         )
+        self.launchMenuWindow.lift()
+        self.launchMenuWindow.attributes("-topmost", True)
 
         self.scrollFrame = ScrollableFrame(self.launchMenuWindow)
         self.scrollFrame.scrollableFrame.config(bg=config.BG, padx=20, pady=20)
@@ -1211,9 +1238,11 @@ class MainWindow:
 class LoadingWindow(tk.Toplevel):
     def __init__(self, parent):
         tk.Toplevel.__init__(self, parent)
-        self.title("Steam Metadata Editor (Loading)")
+        self.title("MetaDECK (Loading)")
         self.resizable(width=False, height=False)
         self.config(bg=config.BG)
+        self.lift()
+        self.attributes("-topmost", True)
 
         self.loadingLabel = Label(self, text="Loading appinfo.vdf...")
 
