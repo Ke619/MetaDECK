@@ -1,3 +1,5 @@
+# METADECK
+
 ![MetaDECK Logo](project_demo/metaicon_demo.png)
 
 A fork of [Steam Metadata Editor](https://github.com/tralph3/Steam-Metadata-Editor) by tralph3, redesigned and compiled specifically for **SteamOS on Steam Deck**.
