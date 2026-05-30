@@ -45,7 +45,7 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
 
 ---
 
-## Autostart (Silent Patching on Boot)
+## Silent Patching on Boot (CRUCIAL STEP)
 
 To automatically patch your metadata every time you boot into Desktop Mode:
 
