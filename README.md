@@ -28,7 +28,7 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
 - Fully standalone — no Distrobox, no Flatpak, no dependencies needed.
 - MetaDECK bundles the following libraries into its standalone executable:
 
-</small>
+</small>‎ 
      - **Python 3** — core runtime
      - **Tkinter** — GUI framework
      - **Pillow** — image processing for logo and splash screen
