@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="project_demo/metaicon_demo.png" width="250">
+  <img src="project_demo/metaicon_demo.png" width="800">
 </p>
 
 <br>
