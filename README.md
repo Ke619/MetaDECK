@@ -25,9 +25,9 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
 - Rename any Steam game in your library
 - Add or edit launch menu options
 - Silent background patching on boot via autostart
-- Splash screen on launch
 - Fully standalone — no Distrobox, no Flatpak, no dependencies needed
-- Native SteamOS dark green theme
+
+
 
 ---
 
