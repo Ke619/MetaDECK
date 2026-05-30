@@ -1,6 +1,7 @@
 <div align="center">
 
 # MetaDECK
+*Please read as some steps are crucial.*
 
 </div>
 
