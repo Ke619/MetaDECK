@@ -84,8 +84,8 @@ Your modifications are saved to:
 
 ## Credits
 
-- Original app by [tralph3](https://github.com/tralph3/Steam-Metadata-Editor)
-- MetaDECK fork — theme, splash screen, autostart patching, and SteamOS compilation
+- Original App by [tralph3](https://github.com/tralph3/Steam-Metadata-Editor)
+- MetaDECK logo is based on the Pixelated Artwork by reddit user [ExxiIon](https://www.reddit.com/user/ExxiIon/)
 
 ---
 
