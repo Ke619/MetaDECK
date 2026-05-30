@@ -59,13 +59,6 @@ This will show the MetaDECK splash screen for 2 seconds on every login, silently
 
 ---
 
-## Usage
-
-- **Open GUI:** `bash metadeck.sh`
-- **Silent patch only (KONSOLE TROUBLESHOOTING):** `bash metadeck.sh --splash-only` 
-
----
-
 ## How it Works
 
 MetaDECK edits Steam's `appinfo.vdf` file located at:
