@@ -40,8 +40,8 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
    mv ~/Downloads/metadeck.sh ~/Applications/metadeck.sh
    chmod +x ~/Applications/metadeck.sh
    ```
-3. Run it:
-   Simply double-click it
+3. Run it
+   (Simply double-click it)
 
 ---
 
