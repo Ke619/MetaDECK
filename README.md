@@ -52,7 +52,6 @@ MetaDECK lets you rename your Steam games and add custom launch menu options —
    chmod +x ~/Applications/metadeck.sh
    ```
 3. Run it
-   (Simply double-click it)
 
 ---
 
@@ -62,7 +61,7 @@ To automatically patch your metadata every time you boot into Desktop Mode:
 
 1. Open **System Settings > Autostart**
 2. Click **Add New > Login Script**
-3. Navigate to **MetaDECK** and select it
+3. Navigate to **Metadeck.sh** and select it
 4. Add this argument: `--splash-only` to the added script
 5. Click OK
 
