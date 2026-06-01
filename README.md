@@ -65,7 +65,7 @@ To automatically patch your metadata every time you boot into Desktop Mode:
 4. Add this argument: `--splash-only` to the added script
 5. Click OK
 
-This will show the MetaDECK splash screen for 2 seconds on every login, silently patch your metadata, then close automatically.
+This will show the MetaDECK splash screen for 2 seconds everytime you switch to desktop mode, silently patch your metadata, then close automatically.
 
 ---
 
