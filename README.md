@@ -1,11 +1,11 @@
-> [!WARNING]
-> This repository is no longer actively maintained. If you encounter any issues, please open an issue report.
-
 <div align="center">
 
 # MetaDECK
 
 </div>
+
+> [!WARNING]
+> This repository is no longer actively maintained. If you encounter any issues, please open an issue report.
 
 <p align="center">
   <img src="project_demo/metaicon_demo.png" width="250">
