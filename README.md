@@ -1,3 +1,6 @@
+> [!WARNING]
+> NO LONGER MAINTAINED.
+
 <div align="center">
 
 # MetaDECK
