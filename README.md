@@ -1,5 +1,5 @@
 > [!WARNING]
-> This repository is no longer actively maintained.
+> This repository is no longer actively maintained. If you encounter any issues, please open an issue report.
 
 <div align="center">
 
