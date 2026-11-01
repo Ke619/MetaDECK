@@ -13,6 +13,7 @@
 > [!WARNING]
 > This repository is no longer actively maintained. If you encounter any issues, please open an issue report.
 
+<br>
 <div align="center">
   
 A fork of [Steam Metadata Editor](https://github.com/tralph3/Steam-Metadata-Editor) by tralph3, redesigned and compiled specifically for **SteamOS on Steam Deck**.
