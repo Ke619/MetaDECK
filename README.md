@@ -4,15 +4,13 @@
 
 </div>
 
-> [!WARNING]
-> This repository is no longer actively maintained. If you encounter any issues, please open an issue report.
-
 <p align="center">
   <img src="project_demo/metaicon_demo.png" width="250">
 </p>
 
 <br>
-
+> [!WARNING]
+> This repository is no longer actively maintained. If you encounter any issues, please open an issue report.
 <div align="center">
   
 A fork of [Steam Metadata Editor](https://github.com/tralph3/Steam-Metadata-Editor) by tralph3, redesigned and compiled specifically for **SteamOS on Steam Deck**.
